@@ -1,6 +1,7 @@
 # Specific-domain Generative-based Chatbot using Large Language Model
 
 - Model : Llama 2 7b chat
+- Dataset : [finance_questions by 4DR1455](https://huggingface.co/datasets/4DR1455/finance_questions)
 - Maximum Length : 256
 - Fine Tuning:
     * QLoRA Adapter on Transformer Attentions
