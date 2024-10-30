@@ -23,7 +23,7 @@ To deploy this project run
 
 ### Step 2 : Run Docker Container
 ```bash
-  docker run -d --restart always --name finance-chatbot-app -p 8501:8501 finance-chatbot-app
+  docker run -d --restart always --gpus all --name finance-chatbot-app -p 8501:8501 finance-chatbot-app
 ```
 
 To stop and delete the container run
