@@ -8,7 +8,9 @@
 
 - UI:
     * Streamlit simple chat UI
- 
+
+Note: \
+If you already download the base pretrained model from huggingface you can create `model_cache` folder inside this repository place the base pretrained model into `model_cache` folder.
 
 ## Deployment
 
